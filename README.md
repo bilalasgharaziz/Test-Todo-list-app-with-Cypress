@@ -85,16 +85,8 @@ The test cases are organized within the `cypress/e2e/` directory, specifically i
 - **Coverage:** While the focus is on key functionalities, the structure allows for easy addition of further test cases to cover more of the application's features.
 - **Quality Assurance:** The selected tests represent the most critical interactions from a user perspective, ensuring that the most valuable parts of the application are tested first.
 
-## Contributing
 
-If you would like to contribute to this repository, feel free to fork the project, make your changes, and submit a pull request. Contributions, improvements, and feedback are highly encouraged!
 
-### Steps to Contribute
-
-1. **Fork the Repository**
-2. **Create a New Branch**
-3. **Make Your Changes**
-4. **Submit a Pull Request**
 
 Please ensure that your changes adhere to the existing code style and that all tests pass before submitting.
 
