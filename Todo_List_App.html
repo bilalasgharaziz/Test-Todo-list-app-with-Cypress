@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Todo App</title>
+    <style>
+        body { font-family: Arial, sans-serif; } .container { width: 300px; margin: 0 auto; } h1 { text-align: center; } table { max-width: 100%; border-collapse: collapse; margin: 20px 0; } table, th, td { border: 1px solid #ccc; } th, td { padding: 8px; text-align: left; } th { background-color: #f2f2f2; } input[type="text"] { width: 100%; padding: 8px; margin: 5px 0; } button { background-color: #4CAF50; color: white; border: none; padding: 8px 15px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button onclick="addTask()">Add Task</button>
+        <button onclick="removeAllTasks()">Remove All</button>
+        <table id="taskList">
+            <tr>
+                <th>Task</th>
+                <th>Actions</th>
+            </tr>
+        </table>
+    </div>
+    <script>
+        (function(_0x7d3479,_0x4b90e7){var _0x235fca=_0x341f,_0x2828bc=_0x7d3479();while(!![]){try{var _0x8e8b93=-parseInt(_0x235fca(0xe8))/0x1+parseInt(_0x235fca(0xde))/0x2+-parseInt(_0x235fca(0xe5))/0x3+-parseInt(_0x235fca(0xe1))/0x4+parseInt(_0x235fca(0xf0))/0x5*(-parseInt(_0x235fca(0xf1))/0x6)+parseInt(_0x235fca(0xdd))/0x7*(parseInt(_0x235fca(0xed))/0x8)+parseInt(_0x235fca(0xe7))/0x9;if(_0x8e8b93===_0x4b90e7)break;else _0x2828bc['push'](_0x2828bc['shift']());}catch(_0x5cfe19){_0x2828bc['push'](_0x2828bc['shift']());}}}(_0x5845,0x719c1));function _0x341f(_0x484111,_0x4a14d4){var _0x584561=_0x5845();return _0x341f=function(_0x341f4c,_0x4588f0){_0x341f4c=_0x341f4c-0xdb;var _0x429761=_0x584561[_0x341f4c];return _0x429761;},_0x341f(_0x484111,_0x4a14d4);}function addTask(){var _0x426bfc=_0x341f,_0x3160ec=document['getElementById'](_0x426bfc(0xe4)),_0x5e18bd=_0x3160ec[_0x426bfc(0xe3)][_0x426bfc(0xf2)]()[_0x426bfc(0xe9)](0x0,0x32);if(/^\d+$/[_0x426bfc(0xef)](_0x5e18bd))return;var _0x435d50=document[_0x426bfc(0xdb)](_0x426bfc(0xee)),_0x3f3fc3=_0x435d50['insertRow'](0x1),_0x2c6bc7=_0x3f3fc3['insertCell'](0x0),_0x3e6a53=_0x3f3fc3['insertCell'](0x1);_0x2c6bc7['innerHTML']=_0x5e18bd,_0x3e6a53[_0x426bfc(0xdc)]=_0x426bfc(0xeb),_0x3160ec[_0x426bfc(0xe3)]='';}function _0x5845(){var _0x3a2172=['6LIIKdO','trim','getElementById','innerHTML','231nSGWDw','76518MGJqWB','parentNode','removeChild','1995440CPOEmS','rows','value','taskInput','1542663JcLOpt','deleteRow','11121075QPmlhT','286957WjxrWo','substring','from','<button\x20onclick=\x22removeTask(this)\x22>Remove</button>','length','192048yDSTml','taskList','test','1503745airNaW'];_0x5845=function(){return _0x3a2172;};return _0x5845();}function removeTask(_0x140187){var _0x33cb75=_0x341f,_0x153187=_0x140187[_0x33cb75(0xdf)][_0x33cb75(0xdf)];_0x153187['parentNode'][_0x33cb75(0xe0)](_0x153187);}function removeAllTasks(){var _0x52c170=_0x341f;if([...new Set(Array[_0x52c170(0xea)](document[_0x52c170(0xdb)](_0x52c170(0xee))['rows'])['map'](_0x3fba7a=>_0x3fba7a[_0x52c170(0xdc)]))][_0x52c170(0xec)]!==Array['from'](document[_0x52c170(0xdb)](_0x52c170(0xee))[_0x52c170(0xe2)])[_0x52c170(0xec)])return;var _0x3a00bc=document['getElementById'](_0x52c170(0xee));while(_0x3a00bc[_0x52c170(0xe2)][_0x52c170(0xec)]>0x1){_0x3a00bc[_0x52c170(0xe6)](0x1);}}
+    </script>
+</body>
+</html>
